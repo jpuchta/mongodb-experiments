@@ -1,4 +1,11 @@
 MongodbExperiments::Application.routes.draw do
+  resources :transactions
+
+  get "transaction/new"
+  get "transaction/show"
+  get "transaction/edit"
+  get "transaction/delete"
+  get "transaction/find"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

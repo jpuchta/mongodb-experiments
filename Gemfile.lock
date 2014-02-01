@@ -1,10 +1,17 @@
 GIT
-  remote: https://github.com/mongoid/mongoid.git
-  revision: 85fbe4b45ec9e786109858556a5ed8a1b384bc3a
+  remote: https://github.com/madsheep/mongoid-sadstory.git
+  revision: 17ae7681708226196e5308bbb5a4bf3a76a427fa
   specs:
-    mongoid (4.0.0.alpha2)
+    mongoid-sadstory (0.0.1)
+      mongoid (~> 4.0.0.alpha1)
+
+GIT
+  remote: https://github.com/mongoid/mongoid.git
+  revision: 5b0f031992cbec66d68c6cb288a4edb952ed5336
+  specs:
+    mongoid (4.0.0.beta1)
       activemodel (>= 4.0.0)
-      moped (~> 2.0.beta5)
+      moped (~> 2.0.beta6)
       origin (~> 2.1)
       tzinfo (>= 0.3.37)
 
@@ -63,8 +70,8 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     minitest (4.7.5)
-    moped (2.0.0.beta5)
-      bson (~> 2.1)
+    moped (2.0.0.beta6)
+      bson (~> 2.2)
       connection_pool (~> 1.2)
       optionable (~> 0.2.0)
     multi_json (1.8.4)
@@ -130,6 +137,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   mongoid!
+  mongoid-sadstory!
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
   sdoc

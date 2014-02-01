@@ -28,7 +28,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
-
+gem 'mongoid-sadstory', git: 'https://github.com/madsheep/mongoid-sadstory.git'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
