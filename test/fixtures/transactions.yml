@@ -3,7 +3,9 @@
 one:
   description: MyString
   cost: 1
+  when: 
 
 two:
   description: MyString
   cost: 1
+  when: 
